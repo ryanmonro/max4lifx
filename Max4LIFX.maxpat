@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 306.0, 145.0, 757.0, 820.0 ],
+		"rect" : [ 293.0, 137.0, 757.0, 820.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"items" : [ "Strip", ",", "The Light" ],
+					"items" : [ "Strip", ",", "The Light", ",", "Strip", ",", "The Light", ",", "Strip", ",", "The Light" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -137,12 +137,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 343.0, 116.0, 22.0 ],
-					"text" : "script npm install lifx"
+					"patching_rect" : [ 448.0, 343.0, 226.0, 35.0 ],
+					"text" : "script npm install git+https://github.com/ryanmonro/lifxjs.git"
 				}
 
 			}
@@ -248,6 +249,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
